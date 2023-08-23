@@ -622,7 +622,7 @@ menu
 	label
 	{
 		enabled		"showStatistics and characterViewable"
-		area		806 386 290 270
+		area		806 386 260 270
 		text		lua "getStatistics3()"
 		text style  'normal'
 		text align	right top
@@ -631,7 +631,7 @@ menu
 	label
 	{
 		enabled		"showStatistics and characterViewable"
-		area		1100 386 106 270
+		area		1074 386 106 270
 		text		lua "getStatistics4()"
 		text style  'normal'
 		text align	center top
@@ -640,7 +640,7 @@ menu
 	label
 	{
 		enabled		"showStatistics and characterViewable"
-		area		1206 386 98 270
+		area		1190 386 106 270
 		text		lua "getStatistics5()"
 		text style  'normal'
 		text align	center top
