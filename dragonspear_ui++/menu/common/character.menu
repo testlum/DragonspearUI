@@ -501,18 +501,18 @@ menu
 	}
 	button
 	{
-		area 816 668 114 32
+		area 810 668 112 32
 		bam 'RGRECBTS'
 		highlightgroup	rgrecpage
 		text 'RG_OVERVIEW'
 		text style "button"
-		pad 10 4 10 4
+		pad 10 7 10 7 
 		--action "currentTab = 1; updateAttrTable()"
 		action "showOverview = true; showClass = false; showBiography = false; showStatistics = false; updateAttrTable()"
 	}
 	button
 	{
-		area 936 668 114 32
+		area 925 668 112 32
 		bam 'RGRECBTS'
 		highlightgroup	rgrecpage
 		text 'STATS_NORMAL'
@@ -523,24 +523,24 @@ menu
 	}
 	button
 	{
-		area 1056 668 114 32
+		area 1040 668 112 32
 		bam 'RGRECBTS'
 		highlightgroup	rgrecpage
 		text 'BIOGRAPHY_LABEL'
 		text style "button"
-		pad 10 4 10 4
+		pad 10 4 8 4
 		--action "currentTab = 7; updateAttrTable()"
 		action "showOverview = false; showClass = false; showBiography = true; showStatistics = false; updateAttrTable()"
 	}
 	button
 	{
-		area 1176 668 114 32
+		area 1155 668 112 32
 		bam 'RGRECBTS'
 		highlightgroup	rgrecpage
 		text 'CLASS_BUTTON'
 --		text 'RG_CLASS_BUTTON'
 		text style "button"
-		pad 10 4 10 4
+		pad 10 7 10 7
 		--action "currentTab = 2; updateAttrTable()"
 		action "showOverview = false; showClass = true; showBiography = false; showStatistics = false; updateAttrTable()"
 	}
