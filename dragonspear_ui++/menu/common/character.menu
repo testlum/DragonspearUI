@@ -528,7 +528,7 @@ menu
 		highlightgroup	rgrecpage
 		text 'BIOGRAPHY_LABEL'
 		text style "button"
-		pad 10 4 8 4
+		pad 12 4 8 4
 		--action "currentTab = 7; updateAttrTable()"
 		action "showOverview = false; showClass = false; showBiography = true; showStatistics = false; updateAttrTable()"
 	}
