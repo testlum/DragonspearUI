@@ -67,7 +67,7 @@ menu
 		name "chpText"
 		area 1368 146 436 522
 		text lua "text_CHAPTERSCROLL"
-		text style normal
+		text style "gamelog"
 		scrollbar 'GUISCRC'
 		scrollbar func 'UpdateChapterScroll'
 		scrollbar hide lua 'text_CHAPTERSCROLL_auto == 1'
