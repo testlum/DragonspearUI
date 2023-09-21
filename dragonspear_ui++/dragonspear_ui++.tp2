@@ -141,6 +141,7 @@ COPY_EXISTING ~M_BG.lua~ ~override~
 		END
 	END
 
+COPY ~dragonspear_ui++/content-common/all/GUICGGEN.png~ ~override~
 
 /////////////////////////////////////////////////////////////////////////////////
 ///  TRANSPARENT TOOLTIP BACKGROUND
